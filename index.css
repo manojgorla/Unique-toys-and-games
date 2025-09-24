@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Marck+Script&family=Maven+Pro:wght@400..900&family=Merienda:wght@300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playball&family=Racing+Sans+One&family=Yatra+One&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.perspective-500 {
+    perspective: 500px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+.dd::after{
+content: '';
+width:20%;
+height: 6px;
+position:absolute;
+border-radius: 30px;
+bottom:0;
+left: 45%;
+background-color: #281A12;
+}
